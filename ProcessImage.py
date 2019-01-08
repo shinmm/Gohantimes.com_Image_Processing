@@ -7,7 +7,7 @@ from PIL import Image
 from ProcessImage_Helper import resizeImageTest, addWatermark
 
 START_TIME = time.clock()
-
+#edited for testing conc
 print("Running...")
 #.txt file to log processing information
 process_log = open("PROCESS_LOG",'w')
