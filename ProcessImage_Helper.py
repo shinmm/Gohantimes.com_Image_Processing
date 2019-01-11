@@ -12,13 +12,12 @@ def addWatermark(curr_img):
     font = ImageFont.truetype(
         FONT_PATH, 43)
     width, height = curr_img.size
-    #x, y = (width - 200, height - 100)
-    xx, yy = (width - 315, height - 78)
+    xx, yy = (width - 300, height - 78)
 
     text = "Gohantimes.com"
     #w, h = font.getsize(text)
 
-    draw.text((xx, yy), text, fill=(211, 211, 211, 100), font=font)  # draw transparant text
+    draw.text((xx, yy), text, fill=(130, 130, 130, 100), font=font)  # draw transparant text
 
 
 def resizeImageTest(curr_img):

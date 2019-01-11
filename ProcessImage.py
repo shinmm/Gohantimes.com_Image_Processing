@@ -29,7 +29,7 @@ def proccess_image(filename):
                 if orientation in rotations:
                     image_curr = image_curr.transpose(rotations[orientation])
 
-        print("\nFile Being Edited : {}\n".format(filename))
+        print("File Being Edited : {}\n".format(filename))
         print("Original Photo Size : {} pixels(width) and {} pixels(height)\n"
                           .format(image_curr.size[0], image_curr.size[1]))
         # resize image
@@ -82,10 +82,19 @@ except FileNotFoundError:
 # loop through images in food folder to process
 try:
     # save list of filenames
+    #processes = []
     food_image_files = glob.glob("*.jpg")
-    p = multiprocessing.Pool()#using all possible cores to process
-    p.map(proccess_image,food_image_files)
-
+    pool = multiprocessing.Pool()
+    pool.map(proccess_image, food_image_files)
+    pool.close()
+    # for file in food_image_files:
+    #     p = multiprocessing.Process(target=proccess_image, args=(file,))
+    #     processes.append(p)
+    #     p.start()
+    #
+    # for process in processes:
+    #     process.join()
+#
 except KeyboardInterrupt:
     print("Program was stopped prematurely\n")
 
