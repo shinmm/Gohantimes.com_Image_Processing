@@ -1,7 +1,7 @@
 from PIL import Image,ImageDraw,ImageFont
 import PIL
 
-FONT_PATH = "/Users/shinmitsuno/Desktop/Gohantimes_Image_Processing/Pacifico.ttf"
+FONT_PATH = "/Users/shinmitsuno/Desktop/Gohantimes.com_Image_Processing/Pacifico.ttf"
 PIC_WIDTH = 1450;
 
 #Takes the image object passed in an argument and add a grey watermark
@@ -19,13 +19,6 @@ def addWatermark(curr_img):
     #w, h = font.getsize(text)
 
     draw.text((xx, yy), text, fill=(211, 211, 211, 100), font=font)  # draw transparant text
-
-def resizeImage(curr_img):
-    width, height = curr_img.size
-    wpercent = (PIC_WIDTH / float(width))
-    hsize = int((float(height) * float(wpercent)))
-    curr_img = curr_img.resize((PIC_WIDTH, hsize), PIL.Image.ANTIALIAS)
-    return curr_img
 
 
 def resizeImageTest(curr_img):
