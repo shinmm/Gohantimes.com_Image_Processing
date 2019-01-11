@@ -7,7 +7,7 @@ from PIL import Image
 from ProcessImage_Helper import resizeImageTest, addWatermark
 
 START_TIME = time.clock()
-#edited for testing conc
+#edited for testing conc wefwef
 print("Running...")
 #.txt file to log processing information
 process_log = open("PROCESS_LOG",'w')
@@ -28,6 +28,7 @@ try:
         os.mkdir(resize_food_dir)
     # change current working directory to food folder
     os.chdir(food_dir)
+
 except FileNotFoundError:
     process_log.write("Directory was not found\n")
     sys.exit()
