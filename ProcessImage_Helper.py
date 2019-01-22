@@ -1,16 +1,19 @@
 from PIL import Image,ImageDraw,ImageFont
 import PIL
 
-FONT_PATH = "/Users/shinmitsuno/Desktop/Gohantimes.com_Image_Processing/Pacifico.ttf"
+FONT_PATH = "/Users/shinmitsuno/Desktop/gohantimes.com-image-processing/Pacifico.ttf"
 PIC_WIDTH = 1450;
 
 #Takes the image object passed in an argument and add a grey watermark
 #on the bottom right corner (Website URL)
-def addWatermark(curr_img):
+def addWatermark(curr_img, font_name):
     # add watermark
     draw = ImageDraw.Draw(curr_img)
+
+
+
     font = ImageFont.truetype(
-        FONT_PATH, 43)
+        font_name, 43)
     width, height = curr_img.size
     xx, yy = (width - 300, height - 78)
 
@@ -20,7 +23,8 @@ def addWatermark(curr_img):
     draw.text((xx, yy), text, fill=(130, 130, 130, 100), font=font)  # draw transparant text
 
 
-def resizeImageTest(curr_img):
+#Resize image to about 1/3 of the size to about 1500 px width
+def resizeImage(curr_img):
 
     width, height = curr_img.size
     #print((int)(width), (int)(height), end=" Is the width and height\n")
@@ -28,3 +32,4 @@ def resizeImageTest(curr_img):
     curr_img = curr_img.resize(((int)(width/2.7), (int)(height/2.7)), PIL.Image.ANTIALIAS)
     #print((int)(width/2.7), (int)(height/2.7), end=" Is the new width and height\n")
     return curr_img
+
