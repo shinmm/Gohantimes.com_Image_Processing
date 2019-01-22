@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dff9db8-3703-437b-aeb4-8730158f05ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PROCESS_LOG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/food_img_PROCESSED/ana-airplane-food-1 copy-resized.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/food_img_PROCESSED/aona-beef-katsu-gyu-katsu-1 copy-resized.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/food_img_PROCESSED/gorosaya-izu-10 copy-resized.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/food_img_PROCESSED/gorosaya-izu-14 copy-resized.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/food_img_PROCESSED/homemade-steak-sandwich copy-resized.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/food_img_PROCESSED/jojoen-kalbi-1 copy-resized.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/food_img_PROCESSED/nyc-jongro-meat-platter-2 copy-resized.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProcessImage.py" afterPath="$PROJECT_DIR$/ProcessImage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProcessImage_Helper.py" afterPath="$PROJECT_DIR$/ProcessImage_Helper.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -236,13 +226,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="970" height="722" extended-state="0" />
-    <editor active="true" />
+    <frame x="9" y="23" width="970" height="722" extended-state="1" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30280173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
