@@ -12,7 +12,7 @@ root_dir = ""
 resize_food_dir = ""
 font_path = ""
 
-START_TIME = timeit.default_timer() #For program run time
+START_TIME = timeit.default_timer() #For program run time  calculation
 
 
 #This function is to be run by multiple processors

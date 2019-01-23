@@ -1,7 +1,6 @@
 from PIL import Image,ImageDraw,ImageFont
 import PIL
 
-FONT_PATH = "/Users/shinmitsuno/Desktop/gohantimes.com-image-processing/Pacifico.ttf"
 PIC_WIDTH = 1450;
 
 #Takes the image object passed in an argument and add a grey watermark
