@@ -11,8 +11,8 @@ Automate the process! I wrote this program in python to automatically resize, co
 The watermark refers to a URL tag placed on the bottom right corner of every image.
 ![example image raw](assets/github_demo_watermark.jpg)
 
-#### Image Size : 4.1MB Image Dimensions: 4032px × 3024px
+### Image Size : 4.1MB    Image Dimensions: 4032px × 3024px
 ![example image raw](assets/github_demo_raw.jpg)
 
-#### New Image Size : 299KB New Image Dimensions: 1493px × 1120px
+### New Image Size : 299KB    New Image Dimensions: 1493px × 1120px
 ![example image processed](assets/github_demo_processed.jpg)
