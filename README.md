@@ -8,6 +8,8 @@ Most images posted on the web require some degree of processing before it can be
 ## Solution
 Automate the process! I wrote this program in python to automatically resize, compress, and watermark my images. This program achieved the desired result for gohantimes.com, a food a lifestyle blog. An example is shown below
 ## Example
+The watermark refers to a URL tag placed on the bottom right corner of every image.
+![example image raw](assets/github_demo_watermark.jpg)
 
 #### Image Size : 4.1MB Image Dimensions: 4032px × 3024px
 ![example image raw](assets/github_demo_raw.jpg)
