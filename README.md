@@ -1,4 +1,4 @@
-# Gohanties.com Image Processing Program
+# Gohantimes.com Image Processing Program
 ### At this moment this program/script is run on my local machine. Development of a web application using Flask is currently underway.
 Update : 2/9/19 -added compatibility with multiple font files(.ttf or .otf)
 ## Main Overview: 
