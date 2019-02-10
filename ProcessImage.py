@@ -12,7 +12,6 @@ root_dir = ""
 resize_food_dir = ""
 font_path = ""
 
-START_TIME = timeit.default_timer() #For program run time  calculation
 
 
 #This function is to be run by multiple processors
@@ -88,8 +87,27 @@ def createNewDirectory():
 # in the global variable font_path
 def searchFont():
     global font_path
+    i = 1
+    j = 0 #to terminate while
     print("Searching for font")
-    font_path = os.path.join(root_dir, "Pacifico.ttf")
+    font_names = []
+    print("Available fonts: ")
+    for font in os.listdir(os.path.join(root_dir,"fonts/")):
+        if font.endswith((".ttf",".otf")):
+            print("{}) {}".format(i,font))
+            font_names.append(font)
+            i+=1
+    #Keep asking for valid font option
+    while j == 0:
+        try:
+            font_choice = input("Enter a number(integer) for the font : ")
+            print(font_names[int(font_choice)-1])
+            j = 1
+        except IndexError:
+            print("Please enter a valid font!")
+
+        font_path = os.path.join(root_dir, "fonts/"+font_names[int(font_choice)-1])
+    print (font_path)
     return font_path
 
 
@@ -103,10 +121,11 @@ def main():
     #Seach for font file
     searchFont()
 
+    START_TIME = timeit.default_timer()  # For process run time  calculation
+
     # loop through images in food folder to process
     try:
         # save list of filenames
-        #threads = []
         food_image_files = glob.glob("*.jpg")
         pool = multiprocessing.Pool(4)
         pool.map(proccess_image, food_image_files)
