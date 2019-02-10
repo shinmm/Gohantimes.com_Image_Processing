@@ -15,9 +15,11 @@ The watermark refers to a URL tag placed on the bottom right corner of every ima
 ![example image raw](assets/github_demo_watermark3.jpg)
 
 ### Original Image Size : 4.1MB    Original Image Dimensions: 4032px × 3024px
+[Raw Image](https://github.com/shinmm/gohantimes.com-image-processing/blob/master/assets/github_demo_raw.jpg)
 ![example image raw](assets/github_demo_raw.jpg)
 
 ### New Image Size : 299KB    New Image Dimensions: 1493px × 1120px
+[Processed Image](https://github.com/shinmm/gohantimes.com-image-processing/blob/master/assets/github_demo_processed.jpg)
 ![example image processed](assets/github_demo_processed.jpg)
 
 ### Example folder (Before, after)
