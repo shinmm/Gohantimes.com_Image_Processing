@@ -22,6 +22,6 @@ The watermark refers to a URL tag placed on the bottom right corner of every ima
 
 ### Example folder (Before, after)
 Before : 
-![example image raw](assets/github_demo_filesB.jpg)
+![example image raw](assets/github_demo_filesB)
 After : 
-![example image raw](assets/github_demo_filesA.jpg)
+![example image raw](assets/github_demo_filesA)
